@@ -6,16 +6,17 @@
     
 
 
-body{
-	min-height:100vh;
-	display: grid;
-	grid-template-rows:20% 60% 20%;
+.wrapper{
+	display: flex;
+flex-direction: column;	
+height:100vh;
 
 
 }
 
 .header{
 	padding:0 20px;
+
 }
 
 .header ul{
@@ -32,9 +33,11 @@ body{
 }
 
 .main{
+	flex:1;
 	display: flex;
 	justify-content: center;
-	align-items: baseline;
+	margin-top: -20%;
+	
 
 }
 
